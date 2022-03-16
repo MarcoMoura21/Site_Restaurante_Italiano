@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Tappo Trattoria</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>Trattoria</a>
+
+      <nav class="navbar">
+        <a class="active" href="#home">Início</a>
+        <a href="#dishes">Pratos</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Reveja</a>
+        <a href="#order">Pedido</a>
+        <a href="#about">Sobre</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="procure aqui.."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>nosso prato especial</span>
+              <h3>Spaghetti com mussarela de búfala</h3>
+              <p>
+                Quais os benefícios da mussarela de búfala? Não é só pela
+                cremosidade que esse queijo se destaca. Seu sabor é suave,
+                levemente adocicado e textura cremosa. Sua casca é lisa e fina,
+                possui cor branca e brilhante.
+              </p>
+              <a href="#" class="btn">Peça agora</a>
+            </div>
+            <div class="image">
+              <img src="img/home-img-1.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>nosso prato especial</span>
+              <h3>Galeto</h3>
+              <p>
+                Que tal um galeto diferente para sair da rotina com muito sabor?
+                O Galeto Assado com Gengibre e Cachaça leva um tempero potente à
+                sua mesa, e ainda deixa o galeto macio e suculento .
+              </p>
+              <a href="#" class="btn">Peça agora</a>
+            </div>
+            <div class="image">
+              <img src="img/home-img-2.png" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>nosso prato especial</span>
+              <h3>Pizzas</h3>
+              <p>
+                Criamos um seleto grupo de ingredientes para tornar sua noite
+                ainda mais especial..
+              </p>
+              <a href="#" class="btn">Peça agora</a>
+            </div>
+            <div class="image">
+              <img src="img/home-img-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Nossos pratos</h3>
+      <h1 class="heading">Pratos populares</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-1.png" alt="" />
+          <h3>Lanches</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 15.99</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-2.png" alt="" />
+          <h3>Nuggets</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 18.60</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-3.png" alt="" />
+          <h3>Galeto</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 75.50</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-4.png" alt="" />
+          <h3>Pizza</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 50.60</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-6.png" alt="" />
+          <h3>Coxa Frango Milanesa</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 18.60</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="img/dish-5.png" alt="" />
+          <h3>Sobremesa</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>R$ 25.50</span>
+          <a href="#" class="btn">Adicionar ao carrinho</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">Nosso cardápio</h3>
+      <h1 class="heading">Especialidade do dia</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-1.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Pizza é uma preparação culinária que consiste em um disco de massa
+              fermentada de farinha de trigo, coberto com molho de tomate e os
+              ingredientes variados que normalmente incluem algum tipo de
+              queijo, carnes preparadas ou defumadas e ervas, normalmente
+              orégano ou manjericão, tudo assado em forno.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 49.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-2.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Este X-salada tradicional vai dar mais sabor aos seus lanches
+              rápidos de fim de semana, o hambúrguer é feito de fraldinha e o
+              sanduíche ainda tem aquele toque de Maionese e Ketchup Hellmann's.
+              Prático e simples, e com sabor inconfundível.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 23.70</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-3.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>A panqueca pode ser uma boa opção para o almoço ou jantar.</p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 18.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-4.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-5.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-6.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-7.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-8.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="img/menu-9.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Comida deliciosa</h3>
+            <p>
+              Os primeiros ferros com formatos específicos utilizados para a
+              produção dos Waffles são próximos do ano 1300, encontrados na
+              Alemanha e Holanda. As placas possuíam desenhos de favos de mel,
+              que no idioma alemão se chamam “Wafel”, daí surgiu o nome que
+              conhecemos.
+            </p>
+            <a href="#" class="btn">Adicionar ao carrinho</a>
+            <span class="Preço">R$ 28.90</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">Sobre</h3>
+      <h1 class="heading">Porque escolher-nos?</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="img/about-img.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Melhor comida do Vale do Paraíba</h3>
+          <p>
+            A ideia é reunir todos os alimentos italianos de qualidade sob o
+            mesmo teto. Foi criado um lugar onde você pode comer e comprar.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Entrega grátis</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>Aceitamos cartões</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>Aberto todos os dias</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
