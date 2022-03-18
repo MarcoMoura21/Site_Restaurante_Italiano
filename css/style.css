@@ -387,10 +387,33 @@ header .icons #menu-bars {
 .menu .box-container .box .image .img {
     height: 100%;
     width: 100%;
-    border-radius: .5rem;
+    border-radius:.5rem;
+    object-fit: cover;
 }
 
+.menu .box-container .box .image .fa-heart {
+    position: absolute;    
+    top: 2.5rem; 
+    right: 2.5rem;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    background: #fff;
+    border-radius: 50%;
+    color: var(--black);
+}
 
+.menu .box-container .box .image .fa-heart:hover {
+    background-color: var(--green);   
+    color: #fff; 
+}
+
+.menu .box-container .box .content {
+    padding: 2rem;
+    padding-top: 0;
+}
 
 
 @media (max-width: 991px){
